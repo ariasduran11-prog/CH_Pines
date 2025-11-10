@@ -9,9 +9,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -24,6 +22,13 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# PyInstaller - Mantener archivos de compilación pero excluir durante desarrollo
+build/
+*.spec
+
+# Ejecutables - Solo para desarrollo local
+# Los ejecutables se distribuirán vía GitHub Releases
 
 # Archivos del sistema
 .DS_Store
