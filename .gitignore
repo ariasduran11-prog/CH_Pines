@@ -1,0 +1,49 @@
+# Archivos temporales de Excel
+*.tmp
+*temp*.xlsx
+final_temp.xlsx
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de log
+*.log
+
+# Archivos de backup
+*.bak
+*.backup
+*.old
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de configuración local
+config.local.py
+settings.local.py
